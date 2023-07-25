@@ -68,3 +68,85 @@ address {
 .contact-header a:active {
   color: var(--pressed-state-color);
 }
+
+/* hero */
+
+.hero {
+  background-color: var(--dark-color);
+}
+
+.hero-title {
+  color: var(--white-background-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.0714;
+  letter-spacing: 1.12px;
+}
+
+.hero-btn {
+  color: var(--white-background-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background-color: var(--primary-brand-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--pressed-state-color);
+  cursor: pointer;
+}
+
+/* Peculiarities */
+
+.item-title {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* What are we doing */
+
+.title-section {
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+/* Our Team */
+
+.team {
+  background-color: var(--light-color);
+}
+
+.center {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--dark-color);
+}
+
+footer .logo {
+  color: var(--light-color);
+}
+
+footer .item-text {
+  color: var(--light-color);
+}
