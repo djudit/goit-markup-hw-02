@@ -18,54 +18,53 @@ body {
   color: var(--text-color);
 }
 
-li {
+.list {
   list-style-type: none;
 }
 
-a {
+.link {
   text-decoration: none;
-}
-
-address {
-  font-style: normal;
 }
 
 /* header */
 
-.header-menu a {
+.menu-item {
   color: var(--dark-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .logo {
+  color: var(--dark-color);
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.1667;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo span {
   color: var(--primary-brand-color);
 }
 
-.contact-header a {
+.address {
+  font-style: normal;
+}
+
+.address-item {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
-.header-menu a:hover,
-.header-menu a:focus,
-.header-menu a:active,
-.contact-header a:hover,
-.contact-header a:focus,
-.contact-header a:active {
+.menu-item:hover,
+.menu-item:focus,
+.address-item:hover,
+.address-item:focus {
   color: var(--pressed-state-color);
 }
 
@@ -81,7 +80,7 @@ address {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.0714;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -89,13 +88,13 @@ address {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background-color: var(--primary-brand-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--pressed-state-color);
+  background-color: var(--pressed-state-color);
   cursor: pointer;
 }
 
@@ -106,13 +105,13 @@ address {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .item-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* What are we doing */
@@ -123,7 +122,7 @@ address {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1111;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -158,7 +157,7 @@ footer .item-text {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background: var(--light-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
@@ -170,4 +169,10 @@ footer .item-text {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   color: var(--white-background-color);
+}
+
+/* Pictures of works */
+
+.txt {
+  color: var(--text-color);
 }
