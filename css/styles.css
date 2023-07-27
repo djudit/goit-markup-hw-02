@@ -134,21 +134,25 @@ body {
   background-color: var(--light-color);
 }
 
+.team-item {
+  background-color: var(--white-background-color);
+}
+
 .center {
   text-align: center;
 }
 
 /* Footer */
 
-footer {
+.footer {
   background-color: var(--dark-color);
 }
 
-footer .logo {
+.footer .logo {
   color: var(--light-color);
 }
 
-footer .item-text {
+.footer .item-text {
   color: var(--light-color);
 }
 
