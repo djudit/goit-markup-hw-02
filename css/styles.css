@@ -16,6 +16,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--text-color);
+  background-color: var(--white-background-color);
 }
 
 .list {
@@ -37,7 +38,7 @@ body {
 }
 
 .logo {
-  color: var(--dark-color);
+  color: var(--primary-brand-color);
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
   font-size: 18px;
@@ -46,8 +47,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo span {
-  color: var(--primary-brand-color);
+.logo-span {
+  color: var(--dark-color);
 }
 
 .address {
@@ -79,12 +80,13 @@ body {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.0714;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
 .hero-btn {
   color: var(--white-background-color);
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -121,7 +123,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -160,14 +162,14 @@ footer .item-text {
   letter-spacing: 0.04em;
   background: var(--light-color);
   border: 1px solid var(--accent-color);
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   cursor: pointer;
   background: var(--pressed-state-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1); */
   color: var(--white-background-color);
 }
 
