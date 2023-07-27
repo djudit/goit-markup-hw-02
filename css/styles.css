@@ -148,7 +148,7 @@ body {
   background-color: var(--dark-color);
 }
 
-.footer .logo {
+.footer .logo-span {
   color: var(--light-color);
 }
 
@@ -160,6 +160,7 @@ body {
 
 .portfolio-btn {
   color: var(--primary-brand-color);
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
